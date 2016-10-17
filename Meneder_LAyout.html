@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+  <head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+  integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" 
+  crossorigin="anonymous">
+	<style>
+
+	.header
+	{
+		Background-Color: black;
+		margin: 1%;
+		height: 100px;
+	}
+	.menu
+	{
+		height: 20px;
+		Background-Color: red;
+		margin: 10px;
+	}
+	.things
+	{
+		height: 500px;
+		margin: 1%;
+		Background-Color: black;
+	}
+	.content
+	{
+		float: left;
+		width: 70%;
+		margin: 1%;
+		Background-Color: blue;
+		height: 96%;
+	}
+	.info
+	{
+		float: left;
+		width: 26%;
+		margin: 1%;
+		Background-Color: blue;
+		height: 96%;
+	}
+	
+	.footer
+	{
+		height: 100px;
+		background-color: black;
+		margin: 1%;
+	}
+	
+	ul
+	{
+		list-style: outside none none;
+	}
+	
+	.listobject
+	{
+		float: left;
+		width: 33%;
+	}
+	
+	.otherthings
+	{
+		height: 200px;
+	}
+	
+	.box
+	{
+
+		background-color: green;
+	}
+	.left
+	{
+		background-color: red;
+	}
+	.right
+	{
+		background-color: blue;
+	}
+	
+	@media (max-width: @screen-xs-max) { ... }
+	@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) { ... }
+	@media (min-width: @screen-md-min) and (max-width: @screen-md-max) { ... }
+	@media (min-width: @screen-lg-min) { ... }
+	
+	</style>
+  	<meta charset="UTF-8">
+	<title>Layout</title>
+  </head>
+  <body>
+	<div class="container">
+		
+		<div class="header">
+		</div>
+		
+		<div class="menu">
+			<ul>
+				<li class ="listobject"><a href="seite.html">Start</a></li>
+				<li class ="listobject"><a href="seite.html">Beitrag A</a></li>
+				<li class ="listobject"><a href="seite.html">Beitrag B</a></li>
+			</ul>
+		</div>
+		<div class="row">
+			<div class="col-xs-12 col-md-4 box"> a </div>
+			<div class="col-xs-12 col-md-4 box"> a </div>
+			<div class="col-xs-12 col-md-4 box"> a </div>
+		</div>
+		
+		<div class="row">
+		
+
+		
+			<div class="col-xs-12 col-md-8 left">
+			b
+			</div>
+			
+			<div class="col-xs-12 col-md-4 right">
+			c
+			</div>
+		
+		</div>
+		<div class="footer">
+		</div>
+	 </div>
+  </body>
+</html>
