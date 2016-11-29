@@ -4,9 +4,10 @@
 	<title>Hausübung 5 | EXPLODE</title>
 	<style>
 
-	.button{
-		padding: 10px;
-	}
+		.button
+		{
+			padding: 10px;
+		}
 	</style>
   </head>
   <body>
@@ -25,10 +26,10 @@
 					{ 
 						$Array = explode(" ",$text);
 						echo "<ul>";
-						foreach($Array as $item)
-						{
-							echo "<li>$item</li>";
-						}
+							foreach($Array as $item)
+								{
+									echo "<li>$item</li>";
+								}
 						echo "</ul>";
 					} 
 	  	?>
