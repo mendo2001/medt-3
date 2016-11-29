@@ -21,8 +21,8 @@
 		<?php
 			$text =  $_POST['eingabe'];
 
-				if(isset($_POST['explodeBtn'])){ ?>
-					<?php
+				if(isset($_POST['explodeBtn']))
+					{ 
 						$Array = explode(" ",$text);
 						echo "<ul>";
 						foreach($Array as $item)
@@ -30,7 +30,7 @@
 							echo "<li>$item</li>";
 						}
 						echo "</ul>";
-					?>
-		<?php } ?>
+					} 
+	  	?>
   </body>
 </html>
